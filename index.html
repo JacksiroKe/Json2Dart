@@ -17,19 +17,19 @@
     <div class="container">
         <div class="py-5 text-center">
             <a href="https://github.com/jacksiroke/json2dart"><h2>JSON to Dart Converter</h2></a>
-            <p class="lead">Paste your JSON in the textarea below, click convert and get your Dart classes for free.</p>
+            <p class="lead mytext">Paste your JSON in the textarea below, click convert and get your Dart classes for free.</p>
         </div>
         <div class="row code-row">
             <div class="col-12 col-md-4">
                 <form onsubmit="return false;">
                     <div class="form-group">
-                        <label for="jsonEditor">JSON</label>
+                        <label for="jsonEditor" class="mytext">JSON</label>
                         <div id="jsonEditor"></div>
                     </div>
                     <input class="form-control mb-2" id="dartClassName" placeholder="Your dart class name goes here">
                     <button type="submit" class="btn btn-primary">Generate Dart</button>
                     <label><input type="checkbox" id="private-fields"> Use private fields</label>
-                    <button id="copy-clipboard" class="mt-2 btn btn-secondary" disabled>Copy Dart code to clipboard</button>
+                    <button id="copy-clipboard" class="mt-2 btn btn-secondary">Copy Dart code to clipboard</button>
                 </form>
             </div>
             <div class="col-12 col-md-8">
