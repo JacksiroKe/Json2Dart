@@ -4,7 +4,7 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
 
 */
 html {
-  color: white;
+  color: #f8f8f8;
 }
 
 #jsonEditor {
@@ -15,6 +15,7 @@ html {
   right: 0;
   bottom: 0;
   left: 0;
+  background: #000;
 }
 
 #invalid-dart {
@@ -26,7 +27,7 @@ html {
   overflow-x: auto;
   padding: 0.5em;
   color: #333;
-  background: #f8f8f8;
+  background: #000;
 }
 
 .hljs-comment,
@@ -104,7 +105,7 @@ html {
 }
 
 .hljs-addition {
-  background: #dfd;
+  background: #999;
 }
 
 .hljs-emphasis {
