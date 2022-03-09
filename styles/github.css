@@ -3,6 +3,9 @@
 github.com style (c) Vasily Polovnyov <vast@whiteants.net>
 
 */
+html {
+  color: white;
+}
 
 #jsonEditor {
   margin-bottom: 10px;
